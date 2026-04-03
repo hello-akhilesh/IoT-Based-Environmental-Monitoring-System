@@ -1,41 +1,41 @@
-📡 IoT based Monitoring System Using ESP8266 and ThingSpeak
+# 📡 IoT based Monitoring System Using ESP8266 and ThingSpeak
 
 A cloud-connected environmental monitoring project built using DHT11, LDR sensor, and NodeMCU ESP8266.
 
-🧠 Project Overview
+## 🧠 Project Overview
 
-This project measures temperature, humidity, and ambient light intensity using a DHT11 sensor and 4-pin LDR module, and uploads the readings to ThingSpeak every few seconds using an ESP8266 (NodeMCU).
-
-
-The ESP8266 collects sensor readings, connects to WiFi, and publishes the values to the cloud continuously—enabling real-time graph visualization.
-
-🔄 How the System Works
-
-> DHT11 measures temperature (°C) and humidity (%).
-
-> LDR module detects ambient light through its analog output (A0).
-
-> NodeMCU ESP8266 reads both sensors.
-
-> The ESP8266 connects to WiFi.
-
-> Data is uploaded to ThingSpeak Channel Fields (Field1, Field2, Field3).
-
-> ThingSpeak automatically creates live graphs, dashboards, and data logs.
+* This project measures temperature, humidity, and ambient light intensity using a DHT11 sensor and 4-pin LDR module, and uploads the readings to ThingSpeak every few seconds using an ESP8266 (NodeMCU).
 
 
-🎯 Key Features
+* The ESP8266 collects sensor readings, connects to WiFi, and publishes the values to the cloud continuously—enabling real-time graph visualization.
 
-> Real-time temperature monitoring
-> Real-time humidity tracking
-> Light intensity monitoring with LDR
-> Automatic cloud uploading to ThingSpeak
-> IoT-ready architecture
-> Beginner-friendly circuitry
-> Low-power and reliable ESP8266 operation
-> Visualization through customizable ThingSpeak graphs
+## 🔄 How the System Works
 
-🛠️ Hardware Requirements
+* DHT11 measures temperature (°C) and humidity (%).
+
+* LDR module detects ambient light through its analog output (A0).
+
+* NodeMCU ESP8266 reads both sensors.
+
+* The ESP8266 connects to WiFi.
+
+* Data is uploaded to ThingSpeak Channel Fields (Field1, Field2, Field3).
+
+* ThingSpeak automatically creates live graphs, dashboards, and data logs.
+
+
+## 🎯 Key Features
+
+* Real-time temperature monitoring
+* Real-time humidity tracking
+* Light intensity monitoring with LDR
+* Automatic cloud uploading to ThingSpeak
+* IoT-ready architecture
+* Beginner-friendly circuitry
+* Low-power and reliable ESP8266 operation
+* Visualization through customizable ThingSpeak graphs
+
+## 🛠️ Hardware Requirements
 
  1. NodeMCU ESP8266 (ESP-12E/ESP-12F)
 
@@ -49,29 +49,29 @@ The ESP8266 collects sensor readings, connects to WiFi, and publishes the values
 
  6. Breadboard (optional)
 
-🧩 Software & Programming Details
+## 🧩 Software & Programming Details
 
--->Language: C++ (Arduino Framework)
+* Language: C++ (Arduino Framework)
 
--->Required Libraries:
+* Required Libraries:
 
-  > ESP8266WiFi
+* ESP8266WiFi
 
-  > ThingSpeak
+* ThingSpeak
 
-  > DHT Sensor Library (Adafruit)
+* DHT Sensor Library (Adafruit)
 
-  > Adafruit Unified Sensor (dependency)
+* Adafruit Unified Sensor (dependency)
 
-🌐 ThingSpeak Setup
+## 🌐 ThingSpeak Setup
 
 I have created:
 
- > 1 Channel
+ * 1 Channel
 
- > API Write Key
+ * API Write Key
 
- >  3 Fields:
+ *  3 Fields:
 
    1. Field1 → Temperature
 
@@ -79,33 +79,33 @@ I have created:
 
    3. Field3 → LDR Value
 
- > Used the Write API Key into my code.
+ * Used the Write API Key into my code.
 
 
-📊 Visualization
+## 📊 Visualization
 
 ThingSpeak provides:
 
-> Line graphs
+* Line graphs
 
-> Real-time dashboards
+* Real-time dashboards
 
-📂 Clone the Repository
+## 📂 Clone the Repository
 git clone https://github.com/hello-akhilesh/IoT-Based-Environmental-Monitoring-System
 
-📹 Demonstration
+## 📹 Demonstration
 
  Video file: IoT-based environmental monitoring system.mp4
 
-🧩 Applications
+## 🧩 Applications
 
-   >> Home weather reporting
+   * Home weather reporting
 
-   >> Light intensity monitoring
+   * Light intensity monitoring
 
-   >> Wireless environmental sensing
+   * Wireless environmental sensing
 
-   >> Smart home automation
+   * Smart home automation
 
 
 
